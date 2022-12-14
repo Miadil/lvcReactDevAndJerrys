@@ -14,6 +14,11 @@ const Count = () => {
 			/>
 			<input
 				type="button"
+				value="+10poulet"
+				onClick={() => setCountBeer(countBeer + 10)}
+			/>
+			<input
+				type="button"
 				value="- 1"
 				onClick={() => setCountBeer(countBeer - 1)}
 			/>

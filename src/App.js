@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 
 import Home from "./screens/Home"
@@ -14,7 +15,12 @@ function App() {
 			{/* <Form /> */}
 			{/* <Count /> */}
 			{/* <Home /> */}
-			<Contact />
+			{/* <Contact /> */}
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/contact" element={<Contact />} />
+				<Route path="/count" element={<Count />} />
+			</Routes>
 		</div>
 	)
 }

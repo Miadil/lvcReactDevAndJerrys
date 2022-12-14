@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import logo from "../logo.svg"
 
 const Header = (props) => {
@@ -8,14 +9,17 @@ const Header = (props) => {
 			<p>
 				j'aime le poulet et je m'appelle {props.firstName} mon age {props.age}
 			</p>
-			<a
-				className="App-link"
-				href="https://reactjs.org"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				Learn React
-			</a>
+			<ul>
+				<li>
+					<Link to="/">Home</Link>
+				</li>
+				<li>
+					<Link to="/contact">Contact</Link>
+				</li>
+				<li>
+					<Link to="/count">Count</Link>
+				</li>
+			</ul>
 		</header>
 	)
 }
