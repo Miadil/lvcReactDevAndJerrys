@@ -6,7 +6,7 @@ const Header = (props) => {
 		<header className="App-header">
 			<img src={logo} className="App-logo" alt="logo" />
 			<p>
-				j'aime le poulet et je m'appelle {props.firstName} mon age {props.age}{" "}
+				j'aime le poulet et je m'appelle {props.firstName} mon age {props.age}
 			</p>
 			<a
 				className="App-link"

@@ -1,0 +1,10 @@
+.dCard-card {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	margin: 10px;
+}
+.dCard-cardDesc {
+	text-align: justify;
+	font-size: 12px;
+}
